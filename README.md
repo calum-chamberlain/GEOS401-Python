@@ -1,11 +1,11 @@
-# ESCI 451-Python
+# GEOS401-Python
 
-Test status: [![test](https://github.com/calum-chamberlain/ESCI451-Python/actions/workflows/runtests.yml/badge.svg)](https://github.com/calum-chamberlain/ESCI451-Python/actions/workflows/runtests.yml)
+Test status: [![test](https://github.com/calum-chamberlain/GEOS401-Python/actions/workflows/runtests.yml/badge.svg)](https://github.com/calum-chamberlain/GEOS401-Python/actions/workflows/runtests.yml)
 
-You can run these notebooks on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/calum-chamberlain/ESCI451-Python/master)
+You can run these notebooks on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/calum-chamberlain/GEOS401-Python/master)
 
-## Introduction to Python for VUW ESCI 451 course (Active Earth). 
-Designed to be a 4 half-day workshops, first run in March 2020.
+## Introduction to Python for VUW GEOS401 course (Active Earth). 
+Designed to be a 4 half-day workshops, first run in March 2020 as part of ESCI451 Active Earth.
 
 These notebooks aim to get students with no previous computing experience to a point where they can
 automate simple data I/O and processing, as well as conduct some simple plotting.  These notebooks
@@ -33,7 +33,7 @@ Then install the required packages listed in the `environment.yml` file using co
 
 ```bash
 conda env create -f environment.yml
-conda activate esci451
+conda activate geos401
 ```
 
 Finally, open jupyter-lab and select the notebook from the left that you want to open:

@@ -41,7 +41,7 @@ def globe_distance(
     result = Geodesic(a=WGS84_A, f=WGS84_F).Inverse(lat1, lon1, lat2, lon2)
 
     # Used to cope with minor floating point differences between operating 
-    # systems that we don't care about for ESCI451
+    # systems that we don't care about for GEOS401
     if round_to:
         return round(result['s12'] / 1000., round_to)
     else:
