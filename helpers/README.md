@@ -1,6 +1,6 @@
 # Helpers
 
-This is a basic python module containing some helpful code for the ESCI451 notebooks.
+This is a basic python module containing some helpful code for the GEOS401 notebooks.
 This code was not included directly in the notebooks to reduce the "boiler-plate" code
 that the students were exposed to, and provide the students with some code to take
 away with them.
